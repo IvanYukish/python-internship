@@ -1,0 +1,55 @@
+PEP 8
+virtual environment
+mutable and immutable types 
+difference between tuple and list
+frozen set
+format, fstring
+dict, key in dict
+list, dict, set comprehension
+slices
+difference between is, ==
+ternary operators
+copy, deepcopy
+reduce, any, map, filter, zip, join
+lambda expression
+recursion
+pass
+*args, **kwargs
+Передача параметрів в функцію по значенню, по ссилці
+asert
+docstrings
+type hints
+scopes visibility
+Замикання
+try, except, else, finally
+class
+inheritance
+MRO (method resolution order)
+public, private, protected attributs
+abstract classes
+magic methods
+static methods
+class methods
+super
+slots
+dataclasses
+debugger(brakepoint, pdb), 
+decorator, class decorator, decorator without @
+functools.wraps
+property
+iterators
+generators
+yield
+with
+garbage collector
+metaclacces
+duck typing
+monkey patching
+function overloading (single_dispatch)
+descriptors
+asynchronous programming 
+treading
+multiprocessing
+GIL
+AST(Abstract Syntax Tree)
+

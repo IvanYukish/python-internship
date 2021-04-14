@@ -1,0 +1,25 @@
+push
+pull
+marge
+add
+commit
+checkout
+branch
+rebase
+stash
+stash apply
+cherypick
+fetch
+different with git fetch and git pull
+reset mixed
+reset hard
+reset soft
+revert
+log
+reflog
+status
+clone
+fork
+
+Git stages: untrecked, unmodified, modefied, staged 
+	

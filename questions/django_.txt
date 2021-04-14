@@ -1,0 +1,33 @@
+Middleware
+ContextProcessor
+ORM
+PK field
+ForeignKey
+FK to Self
+OneToOne
+ManyToMany
+related_name
+CHOICES
+UUID
+.anotations
+.agregations
+GenericForeignKey
+SIgnals
+DataMigrations
+.Only
+.PrefetchRelated
+.SelectRelated
+.count or len
+Celery or an alternativve
+AWS
+i18n
+docker
+fixtures
+django form
+drf serialisers
+sentry
+values_list
+values
+query
+compilemessages
+makemessages

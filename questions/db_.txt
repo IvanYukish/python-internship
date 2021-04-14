@@ -1,0 +1,35 @@
+Index
+Transaction
+ACID
+1,2,3 normal form
+Difference beetwen SQL, NoSQL databases (PostgreSQL, MongoDB).
+OnetoOne
+ManyToMany
+ForeignKey
+CI CD
+Constraints
+View 
+Triggers
+All SQL functions
+GROUP BY
+HAVING
+INNER JOIN
+OUTER JOIN
+CROSS JOIN
+UNION
+ORDER BY
+EXEPT
+INSERT
+SELECT
+LIKE
+|| " " ||
+DELITE
+UPDATE
+WHERE
+DISTINCT
+LIMIT
+OFFSET
+INTERSECT
+
+
+

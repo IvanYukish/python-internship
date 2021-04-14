@@ -1,0 +1,16 @@
+model OSI
+HTTP
+HTTPS
+Http methods
+Difference between put and path
+Difference between post and get
+Difference between http https
+TCP
+UDP
+IP
+DNS
+sockets, web sockets
+json
+thread and process diff
+pipes signals
+SSH
