@@ -17,7 +17,7 @@ recursion
 pass
 *args, **kwargs
 Передача параметрів в функцію по значенню, по ссилці
-asert
+assert
 docstrings
 type hints
 scopes visibility
