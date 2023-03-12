@@ -1,0 +1,30 @@
+REST:
+    Client–server – By separating the user interface concerns from the data storage concerns,
+        we improve the portability of the user interface across multiple platforms and improve scalability
+        by simplifying the server components.
+    Stateless – Each request from client to server must contain all of the information necessary to understand
+        the request, and cannot take advantage of any stored context on the server.
+        Session state is therefore kept entirely on the client.
+    Cacheable – Cache constraints require that the data within a response to a request be implicitly
+        or explicitly labeled as cacheable or non-cacheable. If a response is cacheable,
+        then a client cache is given the right to reuse that response data for later, equivalent requests.
+    Uniform interface – By applying the software engineering principle of generality to the component interface,
+        the overall system architecture is simplified and the visibility of interactions is improved.
+        In order to obtain a uniform interface, multiple architectural constraints are needed to guide
+        the behavior of components. REST is defined by four interface constraints: identification of resources;
+        manipulation of resources through representations; self-descriptive messages; and, hypermedia as the
+        engine of application state.
+    Layered system – The layered system style allows an architecture to be composed of hierarchical layers by
+        constraining component behavior such that each component cannot “see” beyond the immediate layer
+        with which they are interacting.
+    Code on demand (optional) – REST allows client functionality to be extended by downloading and
+        executing code in the form of applets or scripts. This simplifies clients by reducing the number
+        of features required to be pre-implemented.
+
+
+Клієнт-сервер - відокремлюючи проблеми користувальницького інтерфейсу від проблем зберігання даних, ми покращуємо переносимість користувальницького інтерфейсу на декількох платформах та покращуємо масштабованість, спрощуючи компоненти сервера.
+Без громадянства - кожен запит від клієнта до сервера повинен містити всю інформацію, необхідну для розуміння запиту, і не може використовувати будь-який збережений контекст на сервері. Тому стан сеансу повністю тримається на клієнті.
+Кешування - Обмеження кешу вимагають, щоб дані у відповіді на запит неявно або явно позначалися як кешовані чи некешовані. Якщо відповідь можна кешувати, тоді кеш-пам’ять клієнта отримує право повторно використовувати ці дані відповідей для подальших, еквівалентних запитів.
+Уніфікований інтерфейс - Застосовуючи принцип загальності до інтерфейсу компонента, загальна архітектура системи спрощується і покращується видимість взаємодій. Для того, щоб отримати єдиний інтерфейс, для керування поведінкою компонентів необхідні численні архітектурні обмеження. REST визначається чотирма обмеженнями інтерфейсу: ідентифікація ресурсів; маніпулювання ресурсами через представництва; самоописові повідомлення; і гіпермедіа як двигун стану застосування.
+Багатошарова система - Стиль багатошарової системи дозволяє архітектурі складатися з ієрархічних шарів, обмежуючи поведінку компонентів, так що кожен компонент не може "бачити" далі безпосереднього шару, з яким вони взаємодіють.
+Код на вимогу (необов’язково) - REST дозволяє розширити функціональність клієнта, завантажуючи та виконуючи код у формі аплетів або скриптів. Це спрощує клієнтів, зменшуючи кількість функцій, необхідних для попередньої реалізації.
