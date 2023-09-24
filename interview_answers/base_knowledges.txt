@@ -11,9 +11,11 @@ REST:
     Uniform interface – By applying the software engineering principle of generality to the component interface,
         the overall system architecture is simplified and the visibility of interactions is improved.
         In order to obtain a uniform interface, multiple architectural constraints are needed to guide
-        the behavior of components. REST is defined by four interface constraints: identification of resources;
-        manipulation of resources through representations; self-descriptive messages; and, hypermedia as the
-        engine of application state.
+        the behavior of components. REST is defined by four interface constraints:
+        identification of resources;
+        manipulation of resources through representations;
+        self-descriptive messages; and,
+        hypermedia as the engine of application state.
     Layered system – The layered system style allows an architecture to be composed of hierarchical layers by
         constraining component behavior such that each component cannot “see” beyond the immediate layer
         with which they are interacting.

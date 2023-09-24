@@ -1,0 +1,67 @@
+{
+  "CAP theorem": {
+    "Consistency": "123",
+    "Availability": "123",
+    "Partition tolerance": "123"
+  },
+  "relational DB": {
+    "Transactions": {
+      "ACID": {
+        "Atomicity": "",
+        "Consistency": "",
+        "Isolation": "",
+        "Durability": ""
+      },
+      "Transaction isolation levels": {
+        "READ UNCOMMITTED": [
+          "Після INSERT дані відразу стануть доступні для читання.",
+          "Тобто ще до виклику COMMIT поза транзакцією можна отримати щойно додані дані."
+        ],
+        "READ COMMITTED": [
+          "У даному випадку прочитати дані можна лише після виклику COMMIT.",
+          "При чому всередині транзакції дані також будуть ще не доступні."
+        ],
+        "REPEATABLE READ": [
+          "Відрізняється від другого тим, що знову додані дані вже будуть доступні всередині транзакції",
+          "але не будуть доступні до підтвердження ззовні.",
+          "Тут може виникнути теоретична проблема 'фантомного читання'.",
+          "Коли всередині однієї транзакції відбувається читання даних,",
+          "інша транзакція в цей момент вставляє нові дані,",
+          "а перша транзакція знову читає ті самі дані."
+        ],
+        "SERIALIZABLE": [
+          "На даному рівні MySQL блокує кожен рядок над яким відбувається якась дія,",
+          "це виключає появу проблеми «фантомів». Насправді сенсу використовувати цей рівень немає,",
+          "бо InnoDB і менш популярний Falcon вирішують цю проблему."
+        ]
+      }
+    },
+    "Indexes": {
+      "Algorithms": [
+        "Btree",
+        "GIST",
+        "SP-GIST",
+        "HASH",
+        "GIN",
+        "BRIN (Block Range Indexes)"
+      ],
+      "TYPES": [
+        "Clustered Index",
+        "Non-Clustered Index",
+        "Column Store Index",
+        "Filtered Index",
+        "Hash Index",
+        "Unique Index"
+      ]
+    },
+    "horizontal_scaling": [
+      "Partitioning",
+      "Replication",
+      "Sharding"
+    ],
+    "vertical_scaling": [
+      "more CPUs",
+      "more memory"
+    ]
+  }
+}

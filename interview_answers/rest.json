@@ -1,0 +1,18 @@
+{
+  "rest": {
+    "principles": [
+      "Client–server",
+      "Stateless",
+      "Cacheable",
+      "Uniform interface",
+      "Layered system",
+      "Code on demand"
+    ]
+  },
+  "graphql": [
+  ],
+  "gRPC": [
+  ],
+  "soap": [
+  ]
+}
