@@ -1,16 +1,35 @@
 {
   "CAP theorem": {
-    "Consistency": "123",
-    "Availability": "123",
-    "Partition tolerance": "123"
+    "for":"distributed systems, ",
+    "Consistency": "C (consistency) — согласованность. Каждое чтение даст вам самую последнюю запись.",
+    "Availability": "(availability) — доступность. Каждый узел (не упавший) всегда успешно выполняет запросы (на чтение и запись).",
+    "Partition tolerance": ["Partition tolerance — устойчивость к распределению.",
+                            "Даже если между узлами нет связи, они",
+                            "продолжают работать независимо друг от друга."],
+    "examples": {
+      "CA": "Postgres",
+      "AP": "Cassandra",
+      "CP": "Redis, Mongo DB"
+    }
+  },
+
+  "PACELC": {
+    "extention for cap theorem": ""
   },
   "relational DB": {
     "Transactions": {
       "ACID": {
-        "Atomicity": "",
-        "Consistency": "",
-        "Isolation": "",
-        "Durability": ""
+        "Atomicity": "All operations in a transaction succeed or every operation is rolled back.",
+        "Consistency": "On the completion of a transaction, the database is structurally sound.",
+        "Isolation": ["Transactions do not contend with one another. Contentious access",
+                      "to data is moderated by the database so that transactions appear to run sequentially."],
+        "Durability": ["Once the transaction has been completed and the writes and updates have been written to the disk",
+                        "it will remain in the system even if a system failure occurs."]
+      },
+      "BASE": {
+        "Basic Availability": "Система відповідає на будь-який запит, але ця відповідь може містити помилку або неузгоджені дані.",
+        "Soft-state": "Стан системи може змінюватися згодом через зміни кінцевої узгодженості.",
+        "Eventual consistency": "Система, зрештою, стане узгодженою. Вона продовжуватиме приймати дані та не перевірятиме кожну транзакцію на узгодженість."
       },
       "Transaction isolation levels": {
         "READ UNCOMMITTED": [
